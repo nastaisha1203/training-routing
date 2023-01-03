@@ -23,7 +23,7 @@ export const Sales = () => {
       <Box as="header" borderBottom="1px solid black" p={4}>
         <Box as="ul" display="flex">
           {navItems.map(({ href, text }) => (
-            <NavItem to={href} key={href}>
+            <NavItem to={`${href}`} key={href}>
               {text}
             </NavItem>
           ))}
